@@ -23,27 +23,27 @@
 
     <div class="ui centered grid">
       <div class="four wide column">
-        <div class="list-container">
+        <div id="side-menu" class="list-container">
           <!-- side menu -->
-          <ul class="ui divided list" id="films">
-            <li class="film item">Movie titles will go here.</li>
+          <ul id="list" class="ui divided list" id="films">
+            <li id="film-titles" class="film item"></li>
           </ul>
         </div>
       </div>
 
       <!-- poster -->
-      <div class="four wide column">
+      <div id="poster" class="four wide column">
         <img
-          id="poster"
-          src="assets/placeholderImage.png"
-          alt="[MOVIE TITLE]"
+          id="film-poster"
+          src="https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+          alt="The Giant Gila Monster"
         />
       </div>
 
       <!-- showing info -->
       <div class="four wide column">
         <div class="ui cards" id="showing">
-          <div class="card">
+          <div  class="card">
             <div id="title" class="title">[MOVIE TITLE]</div>
             <div id="runtime" class="meta">[RUNTIME] minutes</div>
             <div class="content">
